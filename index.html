@@ -18,17 +18,61 @@
         <div class="logo-icon">✦</div>
         Voyara
       </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
       <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#experiences">Experiences</a></li>
+        <li>
+          <a
+            href="#hero"
+            onclick="document.getElementById('menu-toggle').checked = false"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#destinations"
+            onclick="document.getElementById('menu-toggle').checked = false"
+            >Destinations</a
+          >
+        </li>
+        <li>
+          <a
+            href="#experiences"
+            onclick="document.getElementById('menu-toggle').checked = false"
+            >Experiences</a
+          >
+        </li>
       </ul>
       <div class="social-sidebar">
-        <a class="social-btn" href="#" title="Twitter">𝕏</a>
-        <a class="social-btn" href="#" title="Facebook">f</a>
-        <a class="social-btn" href="#" title="Instagram">◎</a>
-        <a class="social-btn" href="#" title="YouTube">▶</a>
+        <a class="social-btn" href="https://x.com/" target="_blank" title="X"
+          >𝕏</a
+        >
+        <a
+          class="social-btn"
+          href="https://www.facebook.com/"
+          target="_blank"
+          title="Facebook"
+          >f</a
+        >
+        <a
+          class="social-btn"
+          href="https://instagram.com/yvng._roy"
+          target="_blank"
+          title="Instagram"
+          >◎</a
+        >
+        <a
+          class="social-btn"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="_blank"
+          title="YouTube"
+          >▶</a
+        >
       </div>
+      <label class="menu-btn" for="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
     </nav>
 
     <!-- ══════════════════════════════════════════ -->
