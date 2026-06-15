@@ -793,3 +793,147 @@ footer p {
   color: var(--teal);
   cursor: pointer;
 }
+
+/* ── RESPONSIVE ── */
+
+@media (max-width: 968px) {
+  .hero-content {
+    padding: 3rem 2rem;
+  }
+  .hero-h1 .italic-line {
+    font-size: 3.5rem;
+  }
+  .hero-h1 .bold-line {
+    font-size: 2.8rem;
+  }
+  .thumb {
+    width: 100px;
+    height: 64px;
+  }
+  .destinations-grid {
+    grid-template-columns: 1.4fr 1fr 1fr;
+  }
+  #destinations {
+    padding: 5rem 2rem;
+  }
+  .exp-layout {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .hero-content {
+    padding: 2.5rem 1.5rem;
+  }
+  .hero-h1 .italic-line {
+    font-size: 2.8rem;
+  }
+  .hero-h1 .bold-line {
+    font-size: 2rem;
+  }
+  .hero-desc {
+    max-width: 100%;
+  }
+  .hero-thumbs {
+    display: none;
+  }
+  .search-bar {
+    flex-direction: column;
+  }
+  .search-divider {
+    display: none;
+  }
+  .btn-search {
+    width: 100%;
+  }
+  #destinations {
+    padding: 4rem 1.5rem;
+  }
+  .destinations-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .dest-card:first-child {
+    grid-row: auto;
+  }
+  .section-heading {
+    font-size: 2.2rem;
+  }
+  #experiences {
+    padding: 4rem 1.5rem 0;
+  }
+  .exp-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .exp-left .section-heading {
+    font-size: 2rem;
+  }
+  .exp-photo-main {
+    height: 350px;
+  }
+  .exp-float-card {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+  }
+  .exp-stats {
+    grid-template-columns: 1fr;
+  }
+  .cta-banner {
+    padding: 3rem 1.5rem;
+  }
+  .cta-heading {
+    font-size: 2rem;
+  }
+  .cta-buttons {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    padding: 2rem 1.25rem;
+  }
+  .hero-h1 .italic-line {
+    font-size: 2rem;
+  }
+  .hero-h1 .bold-line {
+    font-size: 1.5rem;
+  }
+  .hero-desc {
+    font-size: 0.85rem;
+  }
+  #destinations {
+    padding: 3rem 1.25rem;
+  }
+  .destinations-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-heading {
+    font-size: 1.8rem;
+  }
+  #experiences {
+    padding: 3rem 1.25rem 0;
+  }
+  .exp-photo-main {
+    height: 280px;
+  }
+  .exp-float-card {
+    min-width: auto;
+  }
+  .cta-banner {
+    padding: 2.5rem 1.25rem;
+  }
+  .cta-heading {
+    font-size: 1.6rem;
+  }
+}
