@@ -327,7 +327,7 @@ input[type="radio"] {
   background: white;
   padding: 1.4rem 2rem;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
   box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.08);
 }
@@ -390,6 +390,7 @@ input[type="radio"] {
   border-radius: 32px;
   cursor: pointer;
   white-space: nowrap;
+  align-self: center;
   transition:
     background 0.2s,
     transform 0.15s;
