@@ -828,6 +828,10 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .nav-logo {
+    left: 1.5rem;
+  }
+
   .social-sidebar {
     position: fixed;
     left: 1.2rem;
